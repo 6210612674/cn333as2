@@ -15,5 +15,6 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:clickable="true"
+        app:backgroundTint="#FFC61F"
         app:srcCompat="@android:drawable/ic_input_add" />
 </FrameLayout>

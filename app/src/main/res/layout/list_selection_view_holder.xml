@@ -4,11 +4,13 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <TextView
+     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
+        android:background="#9ACCC8BD"
+        android:padding="10dp"
         android:textStyle="bold" />
 
 </LinearLayout>
