@@ -14,4 +14,4 @@
      
      - On tablet it will show note titile and content page side by side
      
-## Demo clip : 
+## Demo clip : [CLICK HERE](#)
