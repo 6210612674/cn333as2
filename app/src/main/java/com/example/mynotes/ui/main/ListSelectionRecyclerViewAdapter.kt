@@ -21,7 +21,6 @@ class ListSelectionRecyclerViewAdapter(private val lists: MutableList<TaskList>,
 
     override fun onBindViewHolder(holder: ListSelectionViewHolder, position: Int) {
         holder.binding.textView.text = lists[position].name
-//        holder.binding.textView2.text = noteTitles[position]
         holder.itemView.setOnClickListener {
             clickListener.listItemClicked(lists[position])
         }

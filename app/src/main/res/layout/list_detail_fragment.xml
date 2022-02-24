@@ -11,6 +11,8 @@
         android:id="@+id/editTextMultiLine"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:background="@null"
         android:gravity="start|top"
         android:inputType="textMultiLine|textCapSentences"
         android:scrollbars="vertical"

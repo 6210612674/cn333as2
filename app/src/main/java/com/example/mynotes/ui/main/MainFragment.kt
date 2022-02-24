@@ -17,8 +17,6 @@ class MainFragment() : Fragment(), ListSelectionRecyclerViewAdapter.ListSelectio
     lateinit var clickListener: MainFragmentInteractionListener
 
     interface MainFragmentInteractionListener {
-        abstract val list: Any
-
         fun listItemTapped(list: TaskList)
     }
 

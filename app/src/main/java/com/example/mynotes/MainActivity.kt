@@ -127,13 +127,13 @@ class MainActivity : AppCompatActivity(), MainFragment.MainFragmentInteractionLi
 
     override fun onBackPressed() {
         val listDetailFragment = supportFragmentManager.findFragmentById(R.id.note_detail_fragment_container)
-        if (binding.noteDetailFragmentContainer == null) {
+        if (listDetailFragment == null) {
             super.onBackPressed()
         } else {
             sharedPreferences = getSharedPreferences("", MODE_PRIVATE)
             editTextMultiLine = findViewById(R.id.editTextMultiLine)
             val insertText = editTextMultiLine.text.toString()
-            sharedPreferences.edit().putString(list.name, insertText).apply()
+            sharedPreferences.edit().putString(viewModel.list.name, insertText).apply()
             title = resources.getString(R.string.app_name)
 
             supportFragmentManager.commit {
